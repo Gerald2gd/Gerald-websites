@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(68, 0, 255);
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+header img:hover {
+    transform: scale(.8);
+    transition: all ,1s ease-in-out;
+    box-shadow: 2px 2px 12px rgb(10, 114, 218);
+}
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: rgb(10, 71, 240);
+    color: black;
+    border-radius: 16px;
+    border: 1px solid darkslategrey;
+}
+header button:hover {
+    background-color: lightslategray;
+    color: lightcyan;
+    box-shadow: 2px 2px 12px lightskyblue;
+}
+
+.about {
+    text-align: center;
+    margin: 40px;
+}
+
+.about h2 {
+    color: rgb(0, 255, 255);
+}
+.project {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid rgb(0, 64, 255);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.project img {
+    width: 40%;
+}
+.project img:hover {
+    transform: scale(.8);
+    transition: all.3s ease-in-out;
+    box-shadow: 2px 2px 12px rgb(51, 255, 0);
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(234, 255, 0);
+    color: black;
+}
